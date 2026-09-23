@@ -51,3 +51,16 @@ internal object FallbackProviderFingerprint : Fingerprint(
     parameters = listOf(ITEM, "Z"),
     filters = listOf(string("Using fallback Akamai provider"))
 )
+
+internal object PairipLicenseFingerprint : Fingerprint(
+    definingClass = "Lcom/pairip/licensecheck/LicenseContentProvider;",
+    name = "onCreate",
+    returnType = "Z",
+    parameters = emptyList(),
+    filters = listOf(
+        methodCall(
+            definingClass = "Lcom/pairip/licensecheck/LicenseClient;",
+            name = "checkLicense"
+        )
+    )
+)
