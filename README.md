@@ -20,6 +20,24 @@ Both patches retain the original provider selection if no non-empty direct URL
 is available. Location requirements are unchanged.
 
 <!-- PATCHES_START EXPANDED -->
+> **[v1.0.0](https://github.com/Supperelias2/sbs-tv-morphe-patches/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+<details open>
+<summary>📦 SBS On Demand for Android TV&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 6.3.1 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Prefer direct VOD stream](#prefer-direct-vod-stream) | Prefers an available Akamai VOD stream over Google DAI. Keeps original selection for live or missing alternatives. Ad removal is not guaranteed. |  |
+| [Prefer direct live stream](#prefer-direct-live-stream) | Prefers an available Akamai live stream over Google DAI. Broadcast ads remain. Keeps original selection when no direct stream is available. |  |
+| [SBS playback compatibility check](#sbs-playback-compatibility-check) | Checks SBS TV 6.3.1 playback integration points. Does not remove advertisements. |  |
+
+</details>
+
 <!-- PATCHES_END -->
 
 ## Install
