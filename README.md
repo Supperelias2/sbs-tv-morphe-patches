@@ -23,22 +23,22 @@ CLI patching and rebuilding passed for 6.4.0 (16690) and 6.3.1 (16470).
 Playback on 6.4.0 still needs device testing.
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.1](https://github.com/Supperelias2/sbs-tv-morphe-patches/releases/tag/v1.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
+> **[v1.0.2-dev.1](https://github.com/Supperelias2/sbs-tv-morphe-patches/releases/tag/v1.0.2-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
 <details open>
 <summary>📦 SBS On Demand for Android TV&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
 <br>
 
 **🎯 Supported versions:**
 
-| 6.3.1 |
-| :---: |
+| 6.4.0 | 6.3.1 |
+| :---: | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Allow sideloaded installation](#allow-sideloaded-installation) | Prevents the Play licensing redirect when launching a sideloaded SBS TV build. |  |
 | [Prefer direct VOD stream](#prefer-direct-vod-stream) | Prefers an available Akamai VOD stream over Google DAI. Keeps original selection for live or missing alternatives. Ad removal is not guaranteed. |  |
 | [Prefer direct live stream](#prefer-direct-live-stream) | Prefers an available Akamai live stream over Google DAI. Broadcast ads remain. Keeps original selection when no direct stream is available. |  |
-| [SBS playback compatibility check](#sbs-playback-compatibility-check) | Checks SBS TV 6.3.1 playback integration points. Does not remove advertisements. |  |
+| [SBS playback compatibility check](#sbs-playback-compatibility-check) | Checks supported SBS TV playback integration points. Does not remove advertisements. |  |
 
 </details>
 
