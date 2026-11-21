@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/Supperelias2/sbs-tv-morphe-patches/compare/v1.0.2...v1.0.3) (2026-11-21)
+
+### 🐛 Bug Fixes
+
+* clearly describe video ad removal ([463ae53](https://github.com/Supperelias2/sbs-tv-morphe-patches/commit/463ae53e804103bc9596f30283ac4704838f2600))
+
 ## [1.0.2](https://github.com/Supperelias2/sbs-tv-morphe-patches/compare/v1.0.1...v1.0.2) (2026-11-21)
 
 ### 🚀 Updated App Support

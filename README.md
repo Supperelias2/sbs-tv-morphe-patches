@@ -25,7 +25,7 @@ CLI patching and rebuilding passed for 6.4.0 (16690) and 6.3.1 (16470).
 Playback on 6.4.0 still needs device testing.
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.2](https://github.com/Supperelias2/sbs-tv-morphe-patches/releases/tag/v1.0.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
+> **[v1.0.3](https://github.com/Supperelias2/sbs-tv-morphe-patches/releases/tag/v1.0.3)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
 <details open>
 <summary>📦 SBS On Demand for Android TV&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
 <br>
@@ -38,9 +38,9 @@ Playback on 6.4.0 still needs device testing.
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Allow sideloaded installation](#allow-sideloaded-installation) | Prevents the Play licensing redirect when launching a sideloaded SBS TV build. |  |
-| [Prefer direct VOD stream](#prefer-direct-vod-stream) | Prefers an available Akamai VOD stream over Google DAI. Keeps original selection for live or missing alternatives. Ad removal is not guaranteed. |  |
-| [Prefer direct live stream](#prefer-direct-live-stream) | Prefers an available Akamai live stream over Google DAI. Broadcast ads remain. Keeps original selection when no direct stream is available. |  |
-| [SBS playback compatibility check](#sbs-playback-compatibility-check) | Checks supported SBS TV playback integration points. Does not remove advertisements. |  |
+| [Prefer direct VOD stream](#prefer-direct-vod-stream) | Removes pre-roll and mid-roll video ads by selecting SBS's direct VOD stream when available. |  |
+| [Prefer direct live stream](#prefer-direct-live-stream) | Removes extra video ads from live TV by selecting the direct stream when available. Ads in the broadcast remain. |  |
+| [SBS playback compatibility check](#sbs-playback-compatibility-check) | Verifies the playback methods required by the TV VOD and live ad-removal patches. |  |
 
 </details>
 
