@@ -24,6 +24,10 @@ the app keeps its normal playback path. Location requirements are unchanged.
 CLI patching and rebuilding passed for 6.4.0 (16690) and 6.3.1 (16470).
 Playback on 6.4.0 still needs device testing.
 
+See the shared [SBS 6.4.0 QoL research](https://github.com/Supperelias2/sbs-morphe-patches/blob/main/docs/qol-research-6.4.0.md)
+for proposed TV controls, input filtering and other improvements. These proposals
+are not implemented.
+
 <!-- PATCHES_START EXPANDED -->
 > **[v1.0.3](https://github.com/Supperelias2/sbs-tv-morphe-patches/releases/tag/v1.0.3)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
 <details open>
