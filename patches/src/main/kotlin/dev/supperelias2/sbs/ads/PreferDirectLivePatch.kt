@@ -13,8 +13,8 @@ private const val LIVE_AKAMAI = "Lcom/sbs/ondemand/model/playback/PlaybackStream
 @Suppress("unused")
 val preferDirectLivePatch = bytecodePatch(
     name = "Prefer direct live stream",
-    description = "Prefers an available Akamai live stream over Google DAI. " +
-        "Broadcast ads remain. Keeps original selection when no direct stream is available.",
+    description = "Removes extra video ads from live TV by selecting the direct stream when available. " +
+        "Ads in the broadcast remain.",
     default = true
 ) {
     compatibleWith(

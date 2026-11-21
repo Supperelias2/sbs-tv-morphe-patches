@@ -13,8 +13,7 @@ private const val AKAMAI = "Lcom/sbs/ondemand/model/playback/PlaybackStreamProvi
 @Suppress("unused")
 val preferDirectVodPatch = bytecodePatch(
     name = "Prefer direct VOD stream",
-    description = "Prefers an available Akamai VOD stream over Google DAI. " +
-        "Keeps original selection for live or missing alternatives. Ad removal is not guaranteed.",
+    description = "Removes pre-roll and mid-roll video ads by selecting SBS's direct VOD stream when available.",
     default = true
 ) {
     compatibleWith(

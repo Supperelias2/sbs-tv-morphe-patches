@@ -13,7 +13,7 @@ import app.morphe.patcher.patch.bytecodePatch
 @Suppress("unused")
 val playbackCompatibilityPatch = bytecodePatch(
     name = "SBS playback compatibility check",
-    description = "Checks supported SBS TV playback integration points. Does not remove advertisements.",
+    description = "Verifies the playback methods required by the TV VOD and live ad-removal patches.",
     default = false
 ) {
     compatibleWith(

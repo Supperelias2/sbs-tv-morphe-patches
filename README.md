@@ -11,13 +11,15 @@ of SBS On Demand.
 
 For SBS On Demand for Android TV **6.3.1 (16470)** and **6.4.0 (16690)**:
 
-- **Prefer direct VOD stream** selects an available direct Akamai HLS stream
-  instead of Google DAI for on-demand playback.
-- **Prefer direct live stream** does the same for live TV. Ads that are part of
-  the broadcast remain.
+- **Prefer direct VOD stream** removes the video ads played before and during
+  on-demand videos (pre-roll and mid-roll) by using SBS's direct Akamai stream.
+- **Prefer direct live stream** removes the extra video ads inserted before or
+  during live TV. Ads already present in the broadcast itself remain.
+- **Allow sideloaded installation** prevents the Play Store redirect when
+  launching the patched TV app.
 
-Both patches retain the original provider selection if no non-empty direct URL
-is available. Location requirements are unchanged.
+Ad removal uses the direct stream when SBS supplies one. If it is unavailable,
+the app keeps its normal playback path. Location requirements are unchanged.
 
 CLI patching and rebuilding passed for 6.4.0 (16690) and 6.3.1 (16470).
 Playback on 6.4.0 still needs device testing.
