@@ -1,3 +1,9 @@
+## [1.0.2-dev.1](https://github.com/Supperelias2/sbs-tv-morphe-patches/compare/v1.0.1...v1.0.2-dev.1) (2026-11-21)
+
+### 🚀 Updated App Support
+
+* support SBS TV 6.4.0 and refresh build tooling ([b88db20](https://github.com/Supperelias2/sbs-tv-morphe-patches/commit/b88db20a5cc1b670fd7f67c2d582d32bf97e1120))
+
 ## [1.0.1](https://github.com/Supperelias2/sbs-tv-morphe-patches/compare/v1.0.0...v1.0.1) (2026-09-23)
 
 ### 🐛 Bug Fixes
